@@ -1,4 +1,4 @@
-//Vriables
+//Variables
 @import './variables/fonst';
 @import './variables/color';
 @import './variables/sizing';
@@ -11,13 +11,6 @@
 //Common
 @import './common/header.scss';
 @import './common/footer.scss';
-@import './common/form.scss';
+@import './common/body.scss';
 
 
-//Pages
-@import './page/home.scss';
-@import './page/about.scss';
-@import './page/works.scss';
-@import './page/blog.scss';
-@import './page/blog/post.scss';
-@import './page/contacts.scss';
