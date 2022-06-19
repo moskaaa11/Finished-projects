@@ -21,3 +21,67 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.h1 {
+    font-family: $sub-font;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    color: $color-text;
+}
+
+.h2{
+    font-family: $sub-font;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: $color-text;
+}
+
+.h3 {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: $color-text;
+}
+
+.h4 {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: $color-title;
+}
+
+.h5 {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: $color-text;
+}
+
+.h6 {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: $color-text;
+}
+
+.h7 {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: $color-link;
+}
+
+.p {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: $color-title;
+}
