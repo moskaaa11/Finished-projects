@@ -3,7 +3,8 @@
     &__container {
         display: flex;
         margin-top: 32px;
-        align-items: center;
+        align-items: flex-start;
+        margin-bottom: 132px;
     }
     
 
@@ -24,7 +25,7 @@
             font-size: 16px;
             line-height: 160%;
             color: $color-title;
-            width: 65px;
+            max-width: 65px;
         }
 
         &-link{
@@ -37,8 +38,11 @@
     }
 
     &__box{
-        margin-top: -50px;
-        position: relative;
+        display: flex;
+        
+        &:last-child {
+            position: relative; 
+        }
     }
 
     &__button {
@@ -60,6 +64,7 @@
         }
 
         &:hover{
+            transition: 0.001ms;
             z-index: -20;
         }
     }
