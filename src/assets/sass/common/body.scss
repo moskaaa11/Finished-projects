@@ -80,14 +80,19 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 120px;
     }
 
     &__box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: -20px;
 
         &:first-child {
-           text-align: center;
-           max-width: 638px; 
-           margin-bottom: 80px;
+            display: block;
+            text-align: center;
+            max-width: 638px; 
+            margin-bottom: 80px;
         }
     }
 
@@ -98,19 +103,22 @@
     &__card {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         position: relative;
         max-width: 400px;
         background: $color-card;
         border-radius: 50px;
+        margin-left: 170px;
+        margin-bottom: 70px;
 
         &-title {
             margin: 62px 100px 20px;
+            z-index: 1;
         }
 
         &-text {
             margin: 20px 100px;
-            max-width: 230px;
+            width: 230px;
+            z-index: 1;
         }
 
         &-sub {
@@ -119,6 +127,7 @@
             margin-left: 100px;
             align-items: center;
             margin-bottom: 62px;
+            z-index: 1;
 
             &--arrow {
                 max-width: 20px;
@@ -129,15 +138,134 @@
         &-img {
             position: absolute;
             left: -160px;
+            top: 110px;
             width: 230px;
+            z-index: 1;
         }
 
         &-bg {
-            position: absolute;
-            width: 205px;
-            top: 10px;
-            right: 50px;
+
+            &--one {
+                position: absolute;
+                width: 205px;
+                top: 10px;
+                right: 50px;
+            }
+
+            &--two {
+                position: absolute;
+                width: 222px;
+                bottom: 20px;
+                right: 20px;
+            }
+
+            &--three {
+                position: absolute;
+                width: 68px;
+                top: 11px;
+                right: 13px;
+            }
             
+            &--four {
+                position: absolute;
+                width: 323px;
+                top: 20px;
+                left: 7px;
+            }
+
+            &--five {
+                position: absolute;
+                width: 62px;
+                bottom: 20px;
+                right: 20px;
+            }
+            
+        }
+
+        &:nth-child(2) {
+            background: $color-card1;
+
+        }
+
+        &:nth-child(3) {
+            background: $color-card2;
+
+        }
+
+        &:nth-child(4) {
+            background: $color-card3;
+
+        }
+    }
+}
+
+.test {
+
+    &__container {
+        background: $color-sub2;
+        border-radius: 50px;
+        position: relative;
+        margin-bottom: 120px;
+    }
+
+    &__wrapp {
+        padding: 80px 70px;
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    &__box {
+        display: flex;
+        gap: 100px;
+    }
+
+    &__card {
+        background: $color-button;
+        border: 1px solid $color-link;
+        border-radius: 50px;
+        display: flex;
+
+        &-item {
+            padding: 50px 30px;
+        }
+    }
+
+    &__img {
+        border-radius: 45px;
+        width: 90px;
+        margin-right: -15px;
+    }
+
+    &__sub {
+        margin-bottom: 2px;
+    }
+
+    &__link {
+        margin-bottom: 19px;
+        color: $color-link;
+    }
+
+    &__text {
+        max-width: 300px;
+    }
+
+    &__bg {
+
+        &-one {
+            position: absolute;
+            width: 540px;
+            top: 0;
+            left: 0;
+        }
+
+        &-two {
+            position: absolute;
+            width: 580px;
+            top: 0;
+            right: 0;
         }
     }
 }
