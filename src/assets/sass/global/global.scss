@@ -6,6 +6,11 @@ body {
 .container {
     margin:0 auto;
     max-width: 1170px;
+
+    @media (max-width: $tab) {
+        padding: 20px 16px;
+        overflow: hidden;
+    }
 }
 
 .button {
