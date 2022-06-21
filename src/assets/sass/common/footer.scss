@@ -57,7 +57,7 @@
 
         &:hover{
             transition: 0.001ms;
-            z-index: -20;
+            opacity: 0;
         }
     }
 
@@ -129,7 +129,7 @@
             width: 50px;
 
             &:hover {
-                z-index: -20;
+                display: none;
                 transition: 0.001ms;
             }
             
@@ -138,7 +138,12 @@
         &-white {
             position: absolute;
             width: 50px;
-            z-index: -1;
+            opacity: 0;
+
+            &:hover {
+                opacity: 1;
+                transition: 0.001ms;
+            }
         }
     }
 
