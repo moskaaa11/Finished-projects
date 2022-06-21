@@ -5,6 +5,10 @@
         margin-top: 32px;
         align-items: flex-start;
         margin-bottom: 132px;
+
+        @media (max-width: $tab) {
+            margin-bottom: 60px;
+        }
         
     }
     
@@ -16,6 +20,7 @@
 
         @media (max-width: $tab) {
             margin-right: 180px;
+            max-width: 30px;
         }
     }
 
