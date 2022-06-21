@@ -15,7 +15,7 @@
         margin-right:120px ;
 
         @media (max-width: $tab) {
-            margin-right: 80px;
+            margin-right: 180px;
         }
     }
 
@@ -26,17 +26,6 @@
 
         @media (max-width: $tab) {
             display: none;
-            position: fixed;
-            width: 100%;
-            height: 100vh;
-            top: 50%;
-            left: 50%;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 26px;
-            transform: translate(-50%, -50%);
-            background-color: beige;
         }
 
         &-item {
@@ -60,6 +49,7 @@
     &__box{
         display: flex;
         
+        
         &:last-child {
             position: relative; 
             
@@ -75,7 +65,7 @@
         position: absolute;
 
         @media (max-width: $tab) {
-            top: -10px;
+            gap: 5px;
         }
         
 
@@ -89,7 +79,7 @@
             position: absolute;
 
             @media (max-width: $tab) {
-                top: -10px;
+                gap: 10px;
             }
             
         }
@@ -103,8 +93,16 @@
     &__arrow {
         width: 20px;
 
+        @media (max-width: $tab) {
+            width: 10px;
+        }
+
         &-active {
             width: 20px;
+
+            @media (max-width: $tab) {
+                width: 10px;
+            }
         }
     }
 

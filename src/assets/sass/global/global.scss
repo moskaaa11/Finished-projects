@@ -26,6 +26,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: $tab) {
+        font-size: 8px;
+        width: 108px;
+        height: 30px;
+    }
 }
 
 .h1 {
@@ -34,6 +40,10 @@ body {
     font-size: 80px;
     line-height: 110%;
     color: $color-text;
+
+    @media (max-width: $tab) {
+        font-size: 40px;
+    }
 }
 
 .h2{
@@ -42,6 +52,10 @@ body {
     font-size: 40px;
     line-height: 130%;
     color: $color-text;
+
+    @media (max-width: $tab) {
+        font-size: 20px;
+    }
 }
 
 .h3 {
@@ -50,6 +64,10 @@ body {
     font-size: 24px;
     line-height: 130%;
     color: $color-text;
+
+    @media (max-width: $tab) {
+        font-size: 12px;
+    }
 }
 
 .h4 {
@@ -58,6 +76,10 @@ body {
     font-size: 16px;
     line-height: 160%;
     color: $color-title;
+
+    @media (max-width: $tab) {
+        font-size: 8px;
+    }
 }
 
 .h5 {
@@ -66,6 +88,10 @@ body {
     font-size: 16px;
     line-height: 160%;
     color: $color-text;
+
+    @media (max-width: $tab) {
+        font-size: 8px;
+    }
 }
 
 .h6 {
@@ -74,6 +100,10 @@ body {
     font-size: 16px;
     line-height: 160%;
     color: $color-text;
+
+    @media (max-width: $tab) {
+        font-size: 8px;
+    }
 }
 
 .h7 {
@@ -82,6 +112,10 @@ body {
     font-size: 14px;
     line-height: 160%;
     color: $color-link;
+
+    @media (max-width: $tab) {
+        font-size: 7px;
+    }
 }
 
 .h8 {
@@ -90,6 +124,10 @@ body {
     font-size: 20px;
     line-height: 160%;
     color: $color-text;
+
+    @media (max-width: $tab) {
+        font-size: 10px;
+    }
 }
 
 .h9 {
@@ -98,6 +136,10 @@ body {
     font-size: 16px;
     line-height: 180%;
     color: $color-text;
+
+    @media (max-width: $tab) {
+        font-size: 8px;
+    }
 }
 
 .h10 {
@@ -106,6 +148,10 @@ body {
     font-size: 16px;
     line-height: 180%;
     color: $color-text;
+
+    @media (max-width: $tab) {
+        font-size: 8px;
+    }
 }
 
 .h11 {
@@ -114,6 +160,10 @@ body {
     font-size: 16px;
     line-height: 160%;
     color: $color-text;
+
+    @media (max-width: $tab) {
+        font-size: 8px;
+    }
 }
 
 .h12 {
@@ -122,6 +172,10 @@ body {
     font-size: 12px;
     line-height: 180%;
     letter-spacing: 0.01em;
+
+    @media (max-width: $tab) {
+        font-size: 6px;
+    }
 }
 
 .p {
@@ -130,5 +184,9 @@ body {
     font-size: 18px;
     line-height: 160%;
     color: $color-title;
+
+    @media (max-width: $tab) {
+        font-size: 9px;
+    }
 }
 
