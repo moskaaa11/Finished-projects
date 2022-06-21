@@ -34,7 +34,7 @@
         bottom: -50px;
 
         @media (max-width: $tab) {
-            max-width: 200px;
+            max-width: 170px;
             right: 0;
             bottom: 0;
         }
@@ -70,11 +70,19 @@
         border-radius: 50px;
         background: $color-sub1;
         margin-bottom: 120px;
+
+        @media (max-width: $tab) {
+            margin-bottom: 60px;
+        }
     }
 
     &__box{
         position: relative;
         margin:110px 70px ;
+
+        @media (max-width: $tab) {
+            margin: 55px 35px;
+        }
     }
     
     &__title {
@@ -103,6 +111,10 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 120px;
+
+        @media (max-width: $tab) {
+            margin-bottom: 60px;
+        }
     }
 
     &__box {
@@ -115,11 +127,19 @@
             text-align: center;
             max-width: 638px; 
             margin-bottom: 80px;
+
+            @media (max-width: $tab) {
+                margin-bottom: 40px;
+            }
         }
     }
 
     &__title {
         margin-bottom: 50px;
+
+        @media (max-width: $tab) {
+            margin-bottom: 25px;
+        }
     }
 
     &__card {
@@ -132,15 +152,30 @@
         margin-left: 170px;
         margin-bottom: 70px;
 
+        @media (max-width: $tab) {
+            margin-left: 80px;
+            margin-bottom: 35px;
+            max-width: 200px;
+        }
+
         &-title {
             margin: 62px 100px 20px;
             z-index: 1;
+
+            @media (max-width: $tab) {
+                margin: 30px 50px 10px;
+            }
         }
 
         &-text {
             margin: 20px 100px;
             width: 230px;
             z-index: 1;
+
+            @media (max-width: $tab) {
+                width: 120px;
+                margin: 10px 50px;
+            }
         }
 
         &-sub {
@@ -151,10 +186,22 @@
             margin-top: auto;
             margin-bottom: 62px;
             z-index: 1;
+            cursor: pointer;
+
+            @media (max-width: $tab) {
+                margin-left: 50px;
+                gap: 10px;
+                margin-bottom: 31px;
+            }
 
             &--arrow {
                 max-width: 20px;
                 max-height: 14px;
+
+                @media (max-width: $tab) {
+                    max-width: 10px;
+                    max-height: 7px;
+                }
             }
         }
 
@@ -164,6 +211,12 @@
             top: 110px;
             width: 230px;
             z-index: 1;
+
+            @media (max-width: $tab) {
+                width: 100px;
+                left: -60px;
+                top: 55px;
+            }
         }
 
         &-bg {
@@ -173,6 +226,11 @@
                 width: 205px;
                 top: 10px;
                 right: 50px;
+
+                @media (max-width: $tab) {
+                    width: 100px;
+                    right: 15px;
+                }
             }
 
             &--two {
@@ -180,6 +238,12 @@
                 width: 222px;
                 bottom: 20px;
                 right: 20px;
+
+                @media (max-width: $tab) {
+                    width: 100px;
+                    right: 15px;
+                    bottom: 15px;
+                }
             }
 
             &--three {
@@ -187,6 +251,12 @@
                 width: 68px;
                 top: 11px;
                 right: 13px;
+
+                @media (max-width: $tab) {
+                    width: 34px;
+                    right: 20px;
+                    top: 15px;
+                }
             }
             
             &--four {
@@ -194,6 +264,12 @@
                 width: 323px;
                 top: 20px;
                 left: 7px;
+
+                @media (max-width: $tab) {
+                    width: 160px;
+                    top: 15px;
+                    left: 4px;
+                }
             }
 
             &--five {
@@ -201,6 +277,10 @@
                 width: 62px;
                 bottom: 20px;
                 right: 20px;
+
+                @media (max-width: $tab) {
+                    width: 31px;
+                }
             }
             
         }
@@ -230,20 +310,37 @@
         border-radius: 50px;
         position: relative;
         margin-bottom: 120px;
+
+        @media (max-width: $tab) {
+            margin-bottom: 60px;
+        }
     }
 
     &__wrapp {
         padding: 80px 70px;
+
+        @media (max-width: $tab) {
+            padding: 40px 35px;
+        }
     }
 
     &__title {
         text-align: center;
         margin-bottom: 80px;
+
+        @media (max-width: $tab) {
+            margin-bottom: 40px;
+        }
     }
 
     &__box {
         display: flex;
         gap: 100px;
+
+        @media (max-width: $tab) {
+            gap: 50px;
+            flex-direction: column;
+        }
     }
 
     &__card {
@@ -255,6 +352,10 @@
 
         &-item {
             padding: 50px 30px;
+
+            @media (max-width: $tab) {
+                padding: 25px 15px;
+            }
         }
     }
 
@@ -262,6 +363,11 @@
         border-radius: 45px;
         width: 90px;
         margin-right: -15px;
+
+        @media (max-width: $tab) {
+            width: 45px;
+            margin-right: -7px;
+        }
     }
 
     &__sub {
@@ -271,10 +377,18 @@
     &__link {
         margin-bottom: 19px;
         color: $color-link;
+
+        @media (max-width: $tab) {
+            margin-bottom: 8px;
+        }
     }
 
     &__text {
         max-width: 300px;
+
+        @media (max-width: $tab) {
+            max-width: 150px;
+        }
     }
 
     &__bg {
@@ -284,6 +398,10 @@
             width: 540px;
             top: 0;
             left: 0;
+
+            @media (max-width: $tab) {
+                width: 270px;
+            }
         }
 
         &-two {
@@ -291,7 +409,12 @@
             width: 580px;
             top: 0;
             right: 0;
+
+            @media (max-width: $tab) {
+                width: 290px;
+                top: 50%;
+            }
         }
     }
 }
-//fourth section ends
+//fourth section end

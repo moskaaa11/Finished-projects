@@ -8,8 +8,9 @@ body {
     max-width: 1170px;
 
     @media (max-width: $tab) {
-        padding: 20px 16px;
+        margin: auto 16px;
         overflow: hidden;
+        height: 100%;
     }
 }
 
@@ -29,8 +30,8 @@ body {
 
     @media (max-width: $tab) {
         font-size: 8px;
-        width: 108px;
-        height: 30px;
+        width: 100px;
+        height: 20px;
     }
 }
 
